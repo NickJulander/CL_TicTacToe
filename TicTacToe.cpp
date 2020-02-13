@@ -16,6 +16,12 @@ void DisplayBoard(int B[][3]) {
 		std::cout << "\n";
 	}
 }
+
+void PlaceMarker(Position p, int marker, int B[][3]) {
+
+	B[p.row][p.col] = marker;
+
+}
       
 int main(){
     int arr[3][3] = {{7, 7, 7}, {7, 7, 7}, {7, 7, 7}};
