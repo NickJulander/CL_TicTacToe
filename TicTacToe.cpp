@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstdio>
-
 using namespace std;
 
 void *createBoard(){
@@ -17,7 +16,7 @@ void DisplayBoard(int B[][3]) {
 		std::cout << "\n";
 	}
 }
-
+      
 int main(){
     int arr[3][3] = {{7, 7, 7}, {7, 7, 7}, {7, 7, 7}};
     return 0;
