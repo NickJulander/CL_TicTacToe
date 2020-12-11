@@ -1,10 +1,12 @@
-# PE4_part2
-PE 4 Part 2
+CL TicTacToe:
 
-Person 1: Nick Julander
-Person 2: Nate Jones
-Person 3: Nick Jackson
+This game is full of bugs. Players can place on the same spot and place off the board.
 
-Switched off performing git actions
+To play: get into repo, and run the following lines:
 
-A simple 3x3 Tic Tac Toe game
+- make
+
+- ./TicTacToe.o
+
+Once finished, run make clean to remove executable file.
+
